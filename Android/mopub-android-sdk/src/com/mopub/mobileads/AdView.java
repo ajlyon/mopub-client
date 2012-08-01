@@ -481,7 +481,7 @@ public class AdView extends WebView {
     }
     
     public void setAdContentView(View view) {
-        if (mMoPubView == null) return;
+	if (mMoPubView == null) return;
 	mMoPubView.removeAllViews();
         FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(
                 FrameLayout.LayoutParams.WRAP_CONTENT,
